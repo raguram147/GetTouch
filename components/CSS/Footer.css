@@ -1,0 +1,48 @@
+.footer{
+    height: 250px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    @media screen and(max-width:670px) {
+        hegith: 500px;
+        
+    }
+}
+ 
+.footer h2{
+    font-family: 'Montserrat', Times, serif;
+    font-size: 1.5rem;
+    margin: 0px;
+    padding-top: 1rem;
+ 
+}
+
+ .carousel{
+     display: flex;
+     height: 60%;
+     width: 60%;
+    color: #f1f1f1;
+     
+    background-color: black;
+    /* margin-bottom: 2%; */
+    margin:8% 10%;
+
+ }
+.carouselitem{
+    margin: 21% 2%;
+    padding: 15px;
+    padding-bottom: 4%;
+} 
+.social-media-logo{
+    background-color: black;
+    height: 35px;
+    width: 35px;
+    padding: 8px;
+    padding: top 1.1rem;;
+    padding-right: 4px;
+}
+ 
+#social-media{
+    display: flex;
+}
